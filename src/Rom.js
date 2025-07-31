@@ -180,7 +180,7 @@ const RomanticLandingPage = () => {
               >
                 YES! 💚
               </button>
-              <div style={{padding:"30px"}} onMouseEnter={handleNoHover} onMouseLeave={handleMouseLeave}>
+              <div style={{padding:"5px"}} onMouseEnter={handleNoHover} onMouseLeave={handleMouseLeave}>
                 <button
                 onClick={() => setStep('bad3')}
                 className="btn btn-red"
